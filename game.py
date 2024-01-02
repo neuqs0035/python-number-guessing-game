@@ -30,12 +30,12 @@ while True:
                 if(user_guess_num == generated_num):
                     print("\nYou Guessed It Right On ",tries," Tries , Congratulations -x -x -x -x -x -x -x -x")
                     break
-                elif(user_guess_num > generated_num):
+                elif(user_guess_num < generated_num):
                     print("\nBigger Than Guessed Number , " , tries , " Tries . . . . .")
                 else:
                     print("\nSmaller Than Guessed Number , " , tries , " Tries . . . . .")
             elif(choice == 0):
-                print("\nExited Current Game . . . . . . .")
+                print("\nThe Number Is " , generated_num , "\nExited Current Game . . . . . . .")
                 break
             else:
                 print("\nInvalid Input , Please Enter Correct Input Choice")
