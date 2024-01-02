@@ -15,7 +15,7 @@ Before running the script, ensure you have the following installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/bhavya416/python-number-guessing-game.git
+   git clone https://github.com/neuqs0035/python-number-guessing-game.git
    cd python-number-guessing-game
    ```
 2. **Run Script:**
